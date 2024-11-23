@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6B2AC2C42CF1909600764E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B2AC2A52CF1909400764E8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2AC2AC2CF1909400764E8B;
+			remoteInfo = "Smart Recipe Manager";
+		};
+		6B2AC2CE2CF1909600764E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B2AC2A52CF1909400764E8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2AC2AC2CF1909400764E8B;
+			remoteInfo = "Smart Recipe Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B2AC2AD2CF1909400764E8B /* Smart Recipe Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Recipe Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2AC2C32CF1909600764E8B /* Smart Recipe ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Recipe ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2AC2CD2CF1909600764E8B /* Smart Recipe ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Recipe ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6B2AC2D52CF1909600764E8B /* Exceptions for "Smart Recipe Manager" folder in "Smart Recipe Manager" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6B2AC2AC2CF1909400764E8B /* Smart Recipe Manager */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6B2AC2AF2CF1909400764E8B /* Smart Recipe Manager */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6B2AC2D52CF1909600764E8B /* Exceptions for "Smart Recipe Manager" folder in "Smart Recipe Manager" target */,
+			);
+			path = "Smart Recipe Manager";
+			sourceTree = "<group>";
+		};
+		6B2AC2C62CF1909600764E8B /* Smart Recipe ManagerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smart Recipe ManagerTests";
+			sourceTree = "<group>";
+		};
+		6B2AC2D02CF1909600764E8B /* Smart Recipe ManagerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smart Recipe ManagerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B2AC2AA2CF1909400764E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AC2C02CF1909600764E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AC2CA2CF1909600764E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B2AC2A42CF1909400764E8B = {
+			isa = PBXGroup;
+			children = (
+				6B2AC2AF2CF1909400764E8B /* Smart Recipe Manager */,
+				6B2AC2C62CF1909600764E8B /* Smart Recipe ManagerTests */,
+				6B2AC2D02CF1909600764E8B /* Smart Recipe ManagerUITests */,
+				6B2AC2AE2CF1909400764E8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B2AC2AE2CF1909400764E8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B2AC2AD2CF1909400764E8B /* Smart Recipe Manager.app */,
+				6B2AC2C32CF1909600764E8B /* Smart Recipe ManagerTests.xctest */,
+				6B2AC2CD2CF1909600764E8B /* Smart Recipe ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B2AC2AC2CF1909400764E8B /* Smart Recipe Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2AC2D62CF1909600764E8B /* Build configuration list for PBXNativeTarget "Smart Recipe Manager" */;
+			buildPhases = (
+				6B2AC2A92CF1909400764E8B /* Sources */,
+				6B2AC2AA2CF1909400764E8B /* Frameworks */,
+				6B2AC2AB2CF1909400764E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6B2AC2AF2CF1909400764E8B /* Smart Recipe Manager */,
+			);
+			name = "Smart Recipe Manager";
+			packageProductDependencies = (
+			);
+			productName = "Smart Recipe Manager";
+			productReference = 6B2AC2AD2CF1909400764E8B /* Smart Recipe Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B2AC2C22CF1909600764E8B /* Smart Recipe ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2AC2DB2CF1909600764E8B /* Build configuration list for PBXNativeTarget "Smart Recipe ManagerTests" */;
+			buildPhases = (
+				6B2AC2BF2CF1909600764E8B /* Sources */,
+				6B2AC2C02CF1909600764E8B /* Frameworks */,
+				6B2AC2C12CF1909600764E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B2AC2C52CF1909600764E8B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B2AC2C62CF1909600764E8B /* Smart Recipe ManagerTests */,
+			);
+			name = "Smart Recipe ManagerTests";
+			packageProductDependencies = (
+			);
+			productName = "Smart Recipe ManagerTests";
+			productReference = 6B2AC2C32CF1909600764E8B /* Smart Recipe ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B2AC2CC2CF1909600764E8B /* Smart Recipe ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2AC2DE2CF1909600764E8B /* Build configuration list for PBXNativeTarget "Smart Recipe ManagerUITests" */;
+			buildPhases = (
+				6B2AC2C92CF1909600764E8B /* Sources */,
+				6B2AC2CA2CF1909600764E8B /* Frameworks */,
+				6B2AC2CB2CF1909600764E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B2AC2CF2CF1909600764E8B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B2AC2D02CF1909600764E8B /* Smart Recipe ManagerUITests */,
+			);
+			name = "Smart Recipe ManagerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Smart Recipe ManagerUITests";
+			productReference = 6B2AC2CD2CF1909600764E8B /* Smart Recipe ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B2AC2A52CF1909400764E8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					6B2AC2AC2CF1909400764E8B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					6B2AC2C22CF1909600764E8B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6B2AC2AC2CF1909400764E8B;
+					};
+					6B2AC2CC2CF1909600764E8B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6B2AC2AC2CF1909400764E8B;
+					};
+				};
+			};
+			buildConfigurationList = 6B2AC2A82CF1909400764E8B /* Build configuration list for PBXProject "Smart Recipe Manager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B2AC2A42CF1909400764E8B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6B2AC2AE2CF1909400764E8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B2AC2AC2CF1909400764E8B /* Smart Recipe Manager */,
+				6B2AC2C22CF1909600764E8B /* Smart Recipe ManagerTests */,
+				6B2AC2CC2CF1909600764E8B /* Smart Recipe ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B2AC2AB2CF1909400764E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AC2C12CF1909600764E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AC2CB2CF1909600764E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B2AC2A92CF1909400764E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AC2BF2CF1909600764E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2AC2C92CF1909600764E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B2AC2C52CF1909600764E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B2AC2AC2CF1909400764E8B /* Smart Recipe Manager */;
+			targetProxy = 6B2AC2C42CF1909600764E8B /* PBXContainerItemProxy */;
+		};
+		6B2AC2CF2CF1909600764E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B2AC2AC2CF1909400764E8B /* Smart Recipe Manager */;
+			targetProxy = 6B2AC2CE2CF1909600764E8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B2AC2D72CF1909600764E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart Recipe Manager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smart-Recipe-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B2AC2D82CF1909600764E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart Recipe Manager/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smart-Recipe-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B2AC2D92CF1909600764E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B2AC2DA2CF1909600764E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B2AC2DC2CF1909600764E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smart-Recipe-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Recipe Manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Recipe Manager";
+			};
+			name = Debug;
+		};
+		6B2AC2DD2CF1909600764E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smart-Recipe-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Recipe Manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Recipe Manager";
+			};
+			name = Release;
+		};
+		6B2AC2DF2CF1909600764E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smart-Recipe-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Recipe Manager";
+			};
+			name = Debug;
+		};
+		6B2AC2E02CF1909600764E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Smart-Recipe-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Recipe Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B2AC2A82CF1909400764E8B /* Build configuration list for PBXProject "Smart Recipe Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2AC2D92CF1909600764E8B /* Debug */,
+				6B2AC2DA2CF1909600764E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2AC2D62CF1909600764E8B /* Build configuration list for PBXNativeTarget "Smart Recipe Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2AC2D72CF1909600764E8B /* Debug */,
+				6B2AC2D82CF1909600764E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2AC2DB2CF1909600764E8B /* Build configuration list for PBXNativeTarget "Smart Recipe ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2AC2DC2CF1909600764E8B /* Debug */,
+				6B2AC2DD2CF1909600764E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2AC2DE2CF1909600764E8B /* Build configuration list for PBXNativeTarget "Smart Recipe ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2AC2DF2CF1909600764E8B /* Debug */,
+				6B2AC2E02CF1909600764E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B2AC2A52CF1909400764E8B /* Project object */;
+}
